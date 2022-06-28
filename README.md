@@ -5,6 +5,7 @@ Figure shows AAC-24 scoring to quantify the severity of AAC. The scores of all e
 
 ## Network Architecture
 ![Alt](architecture.PNG) 
+Our proposed (a) framework for automatic fine-grained AAC scoring,(b) detailed schematic of our attention-based decoders, and (c) attention module.
 
 ## Dependencies
 
