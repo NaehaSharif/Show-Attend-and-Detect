@@ -3,10 +3,14 @@ More than 55,000 people world-wide die from Cardiovascular Disease (CVD) each da
 
 ![Alt](architecture.PNG) 
 
-# Dependencies
+## Dependencies
 
-# Training Script
+## Training Script
 
-# Evaluation
+## Evaluation
+
+![Alt](comparison.PNG) 
+Scatter plots and confusion matrix of fine-grained ground truth scores vs predicted scores for our proposed model Mfgs and ground truth vs our implementation of the baseline Mbase [15] overall AAC-24 score per scan.
 
 # Qualitative Results
+
