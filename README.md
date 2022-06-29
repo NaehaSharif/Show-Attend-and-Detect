@@ -45,6 +45,9 @@ Run the following script for inference and visualisation.
 ```
 inference_model.py
 ```
+
+combine anterior and posterior scores by running "combine_ant_and_post.py", and then run "inference_model_combined.py" to generate overall scores. 
+
 ## Evaluation
 
 ![Alt](images/comparison.PNG) 
