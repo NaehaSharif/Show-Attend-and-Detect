@@ -16,6 +16,16 @@ conda activate aac-release
 Note: Pytorch 1.7 and Python 3.6 is required to run our code. 
 
 
+## Pre-processed
+
+Place the dual energy Dicom images in the "dicom_folder" and run the following script to preprocess the images. 
+
+```
+preprocessing-DE.py
+```
+The preprocessed images will be save in the "npy_folder"
+
+
 ## Training Script
 
 ## Evaluation
@@ -39,3 +49,6 @@ Figure 4(c) shows failure cases where the model over-estimates the score of L3 w
 -https://github.com/MakarovArtyom/Image-Captioning-with-Attention
 
 -https://medium.com/analytics-vidhya/image-captioning-with-attention-part-1-e8a5f783f6d3
+
+-https://github.com/Bjarten/early-stopping-pytorch/
+
