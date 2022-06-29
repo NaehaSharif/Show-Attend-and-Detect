@@ -6,11 +6,16 @@ More than 55,000 people world-wide die from Cardiovascular Disease (CVD) each da
 ![Alt](architecture.PNG) 
 Our proposed (a) framework for automatic fine-grained AAC scoring,(b) detailed schematic of our attention-based decoders, and (c) attention module.
 
-## Dependencies
-
-``` bash
-pip install torchtext
+## Environment setup
+Clone this repository and create the `aac-release` conda environment using the `requirements.yml` file:
 ```
+conda env create -f requirements.yml
+conda activate aac-release
+```
+
+Note: Pytorch 1.7 and Python 3.6 is required to run our code. 
+
+
 ## Training Script
 
 ## Evaluation
@@ -28,3 +33,7 @@ Figure 4 shows some examples where our model succeeds (a-b) or fails (cd). The f
 Figure 4(c) shows failure cases where the model over-estimates the score of L3 while (d) portrays a case where it totally fails to identify the heavy calcification. However, Figure 4(d) is very interesting as the aorta in the DXA scan produced by the GE iDXA machine is masked for radiation dose reduction. The human experts have not scored L2 and L3 anterior sections of this scan because they are not visible. Our model is unable to “see” the aorta and hence outputs a zero score. (This is good because a higher predicted score would have meant that the model is not paying attention to the aorta in the score generation process).
 
 ## References and Acknowledgements
+
+-https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning
+-https://github.com/MakarovArtyom/Image-Captioning-with-Attention
+-https://medium.com/analytics-vidhya/image-captioning-with-attention-part-1-e8a5f783f6d3
