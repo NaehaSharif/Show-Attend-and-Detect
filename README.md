@@ -16,7 +16,7 @@ conda activate aac-release
 Note: Pytorch 1.7 and Python 3.6 is required to run our code. 
 
 
-## Pre-processed
+## Pre-processing
 
 Place the dual energy Dicom images in the "dicom_folder" and run the following script to preprocess the images. 
 
