@@ -38,6 +38,13 @@ training.py
 For training on anterior segments, set the parameter -level='ant', and for training on posterior segments set the parameter -level='post' within the script. 
 Once the model files and Csvs (containing fine-grained scores) for anterior segemnts are created after 10-fold cross validation, place them in the folders -> attempt/ant/models, and attempt/ant/fine_scores respectively. Do the same for models trained on posterior segment scores.
 
+## Inference
+
+Run the following script for inference and visualisation.
+
+```
+inference_model.py
+```
 ## Evaluation
 
 ![Alt](images/comparison.PNG) 
