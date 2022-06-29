@@ -25,8 +25,8 @@ preprocessing-DE.py
 ```
 The preprocessed images will be save in the "npy_folder"
 
-Run "preparing-data.py" to read the csv file containing the ids, score and dates of the dicoms and  then creates a numpy
-containing the names to score mapping.
+Run "preparing-data.py" to read the csv file containing the ids, score and dates of the dicoms and create numpy and csv files
+containing the name to score mapping. These mapping files will be used for training and validation purposes.
 
 ## Training Script
 
