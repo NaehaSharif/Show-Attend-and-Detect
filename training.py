@@ -93,7 +93,7 @@ save_every = 1             # determines frequency of saving model weights
 print_every = 5          # determines window for printing average loss
 learning_rate=1e-4
 # The size of the vocabulary.
-vocab_size = 8
+vocab_size = 4
 level='ant'
 device_ids=list(range(torch.cuda.device_count()))
 
