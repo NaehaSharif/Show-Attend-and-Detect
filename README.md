@@ -13,7 +13,7 @@ conda env create -f requirements.yml
 conda activate aac-release
 ```
 
-Note: Pytorch 1.7 and Python 3.6 is required to run our code. 
+Note: Pytorch 1.10 and Python 3.6 is required to run our code. 
 
 
 ## Pre-processing
