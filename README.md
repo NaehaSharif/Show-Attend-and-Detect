@@ -48,6 +48,10 @@ inference_model.py
 
 combine anterior and posterior scores by running "combine_ant_and_post.py", and then run "inference_model_combined.py" to generate overall scores. 
 
+### Pre-trained Models 
+
+Download the pre-trained models from: https://drive.google.com/drive/folders/1xAB30d47v61vcNl_mfZ8MqB8pYEwikwT?usp=sharing
+
 ## Evaluation
 
 ![Alt](images/comparison.PNG) 
