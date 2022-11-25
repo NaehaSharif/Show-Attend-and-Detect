@@ -50,7 +50,7 @@ combine anterior and posterior scores by running "combine_ant_and_post.py", and 
 
 ### Pre-trained Models 
 
-Download the pre-trained models from: https://drive.google.com/drive/folders/1xAB30d47v61vcNl_mfZ8MqB8pYEwikwT?usp=sharing--
+Download the pre-trained models from: https://drive.google.com/drive/folders/1xAB30d47v61vcNl_mfZ8MqB8pYEwikwT?
 
 ## Evaluation
 
