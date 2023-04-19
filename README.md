@@ -76,3 +76,15 @@ Figure 4(c) shows failure cases where the model over-estimates the score of L3 w
 
 -https://github.com/Bjarten/early-stopping-pytorch/
 
+####Please cite with the following BibTeX:
+
+```
+@inproceedings{gilani2022show,
+  title={Show, Attend and Detect: Towards Fine-Grained Assessment of Abdominal Aortic Calcification on Vertebral Fracture Assessment Scans},
+  author={Gilani, Syed Zulqarnain and Sharif, Naeha and Suter, David and Schousboe, John T and Reid, Siobhan and Leslie, William D and Lewis, Joshua R},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2022: 25th International Conference, Singapore, September 18--22, 2022, Proceedings, Part III},
+  pages={439--450},
+  year={2022},
+  organization={Springer}
+}
+```
