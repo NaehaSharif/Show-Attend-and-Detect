@@ -76,7 +76,7 @@ Figure 4(c) shows failure cases where the model over-estimates the score of L3 w
 
 -https://github.com/Bjarten/early-stopping-pytorch/
 
-####Please cite with the following BibTeX:
+Please cite with the following BibTeX:
 
 ```
 @inproceedings{gilani2022show,
